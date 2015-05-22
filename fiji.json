@@ -1,0 +1,36 @@
+{
+    "name": "fiji",
+    "title": "Fiji",
+    "description": "Lightweight, clear and simple method for decoupling javascript from templates",
+    "keywords": [
+        "template",
+        "parser",
+    ],
+    "version": "0.0.0",
+    "author": {
+        "name": "Nephila"
+    },
+    "maintainers": [
+        {
+            "name": "Andrea Stagi",
+            "email": "stagi.andrea@gmail.com",
+            "url": "http://github.com/astagi"
+        },
+        {
+            "name": "Matteo Carella",
+            "email": "matt.carella@gmail.com ",
+            "url": "http://www.mathewdesign.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/nephila/fiji/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/nephila/fiji/issues",
+    "homepage": "https://github.com/nephila/fiji",
+    "download": "https://github.com/nephila/fiji",
+    "dependencies": {
+    }
+}
