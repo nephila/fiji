@@ -1,4 +1,4 @@
-# Fiji
+# Fiji [![Build Status](https://travis-ci.org/nephila/fiji.svg)](https://travis-ci.org/nephila/fiji)
 
 Lightweight, clear and simple method for decoupling javascript from templates
 
