@@ -27,12 +27,17 @@ test( "parse plain", function( assert ) {
         );
         assert.equal(
             context.plain_number, 1,
-            "Plain numbers remains plain numbers."
+            "Plain number remains plain number."
+        );
+        assert.equal(
+            context.plain_object.type, "plain object",
+            "Plain object remains plain object."
         );
         called();
     };
     fiji({
         plain_text: "plain text",
         plain_number: 1,
+        plain_object: {"type": "plain object"},
     }).run(main);
 });

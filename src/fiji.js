@@ -11,7 +11,9 @@ function fiji(context) {
                 } else if (context[key][map] === Array) {
                     context[key] = JSON.parse(map);
                 } else {
-                    context[key] = context[key][map](map);
+                    if (typeof(context[key][map]) === "function") {
+                        context[key] = context[key][map](map);
+                    }
                 }
             }
         }
