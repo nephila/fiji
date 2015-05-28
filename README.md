@@ -1,4 +1,8 @@
-# Fiji [![Build Status](https://travis-ci.org/nephila/fiji.svg)](https://travis-ci.org/nephila/fiji)
+# Fiji 
+
+[![Build Status](https://travis-ci.org/nephila/fiji.svg)](https://travis-ci.org/nephila/fiji)
+![Bower version](https://img.shields.io/bower/v/fiji.js.svg)
+[![npm version](https://img.shields.io/npm/v/fiji.js.svg)](https://www.npmjs.com/package/fiji.js)
 
 Lightweight, clear and simple method for decoupling javascript from templates
 
