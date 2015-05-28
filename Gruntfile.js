@@ -11,12 +11,12 @@ module.exports = function (grunt) {
             },
             build: {
                 files: {
-                    'build/<%= pkg.name %>-<%= pkg.version %>.min.js': 'src/<%= pkg.name %>.js'
+                    'dist/fiji.min.js': 'src/fiji.js'
                 }
             }
         },
         jshint: {
-            files: ["src/<%= pkg.name %>.js"],
+            files: ["src/fiji.js"],
             options: {
                 jshintrc: ".jshintrc"
             }

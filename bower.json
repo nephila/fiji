@@ -1,0 +1,23 @@
+{
+  "name": "fiji.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nephila/fiji",
+  "authors": [
+    "Andrea Stagi <stagi.andrea@gmail.com>",
+    "Matteo Carella <matt.carella@gmail.com>"
+  ],
+  "description": "Lightweight, clear and simple method for decoupling javascript from templates",
+  "main": "src/fiji.js",
+  "keywords": [
+    "templates"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo"
+  ]
+}

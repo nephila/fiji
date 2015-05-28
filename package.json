@@ -1,8 +1,17 @@
 {
-  "name": "fiji",
-  "version": "0.0.0",
+  "name": "fiji.js",
+  "version": "0.1.0",
   "author": "Nephila",
   "license": "MIT",
+  "description": "Lightweight, clear and simple method for decoupling javascript from templates",
+  "main": "src/fiji.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nephila/fiji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nephila/fiji/issues"
+  },
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-uglify": "~0.5.0",
